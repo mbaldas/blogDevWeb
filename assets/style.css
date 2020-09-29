@@ -1,0 +1,76 @@
+/* SUMARIO 
+
+1 - IMPORTS
+2 - SIGNUP SCREEN
+
+*/
+
+/* 1 - IMPORTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+/* 2 - SIGNUP SCREEN */
+
+.container--signup {
+  min-height: 100vh;
+  display: flex;
+}
+
+.left {
+  width: 50vw;
+  background-color: #ffffff;
+}
+
+.container--left {
+  margin: 30% 10% 0% 10%;
+}
+
+.left h1 {
+  font-family: "Secular One", sans-serif;
+}
+
+.left p {
+  font-family: "Secular One", sans-serif;
+}
+
+.left .fontLabel {
+  font-family: "Secular One", sans-serif;
+}
+
+.button--signup {
+  margin-top: 2.5%;
+  width: 100%;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  border: none;
+}
+
+.button--signup:hover {
+  background-color: #ddcecd;
+  border-color: #ddcecd;
+}
+
+.right {
+  width: 50vw;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.container--right {
+  margin: 40% 15% 0% 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 60vh;
+}
+
+.container--right--image {
+
+}
+
+.right p {
+  font-family: "Secular One", sans-serif;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
