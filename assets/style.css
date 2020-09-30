@@ -22,7 +22,7 @@
 }
 
 .container--left {
-  margin: 30% 10% 0% 10%;
+  margin: 20% 10% 0% 10%;
 }
 
 .left h1 {
@@ -45,11 +45,6 @@
   border: none;
 }
 
-.button--signup:hover {
-  background-color: #ddcecd;
-  border-color: #ddcecd;
-}
-
 .right {
   width: 50vw;
   background-color: #8ec5fc;
@@ -57,16 +52,12 @@
 }
 
 .container--right {
-  margin: 40% 15% 0% 15%;
+  margin: 20% 15% 0% 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   min-height: 60vh;
-}
-
-.container--right--image {
-
 }
 
 .right p {
