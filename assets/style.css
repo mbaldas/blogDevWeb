@@ -2,6 +2,7 @@
 
 1 - IMPORTS
 2 - SIGNUP SCREEN
+3 - SIGNIN SCREEN
 
 */
 
@@ -25,15 +26,7 @@
   margin: 20% 10% 0% 10%;
 }
 
-.left h1 {
-  font-family: "Secular One", sans-serif;
-}
-
-.left p {
-  font-family: "Secular One", sans-serif;
-}
-
-.left .fontLabel {
+.fontSecular {
   font-family: "Secular One", sans-serif;
 }
 
@@ -62,6 +55,46 @@
 
 .right p {
   font-family: "Secular One", sans-serif;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+/* 3 - SIGNIN SCREEN */
+
+.container--signin {
+  min-height: 100vh;
+  display: flex;
+}
+
+.left--signin {
+  width: 50vw;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.right--signin {
+  width: 50vw;
+  background-color: #ffffff;
+}
+
+.container--left__signin {
+  margin: 16% 10% 0% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 60vh;
+}
+
+.container--right__signin {
+  margin: 20% 10% 0% 10%;
+}
+
+#solicite {
+  margin-top: 5%;
+}
+
+.left--signin p {
   font-size: 2em;
   letter-spacing: 2px;
 }

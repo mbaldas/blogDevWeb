@@ -12,11 +12,25 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <div class="container--signup">
-      <div class="left">
-        <div class="container--left">
+    <div class="container--signin">
+      <div class="left--signin">
+        <div class="container--left__signin">
+          <p class="fontSecular">
+            Passe na porta do login e tenha acesso ao mundo mágico!
+          </p>
+          <div class="col-lg-6 d-none d-lg-block container--right--image">
+            <img
+              src="assets/images/undraw_Login_re_4vu2.svg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="right--signin">
+        <div class="container--right__signin">
           <h1 class="fontSecular">Olá!</h1>
-          <p class="fontSecular">Solicite seu acesso agora</p>
+          <p class="fontSecular">Já se cadastrou? Entre agora no nosso blog</p>
           <form>
             <div class="form-group">
               <label for="inputCpf" class="fontSecular">CPF</label>
@@ -31,16 +45,6 @@
               >
             </div>
             <div class="form-group">
-              <label for="selectRole" class="fontSecular"
-                >Escolha sua função</label
-              >
-              <select class="form-control" id="selectRole">
-                <option>Administrador</option>
-                <option>Comentarista</option>
-                <option>Autor</option>
-              </select>
-            </div>
-            <div class="form-group">
               <label for="inputPassword" class="fontSecular">Senha</label>
               <input
                 type="password"
@@ -50,23 +54,10 @@
               />
             </div>
             <button type="submit" class="btn btn-primary button--signup">
-              SOLICITAR MEU ACESSO
+              FAZER LOGIN
             </button>
           </form>
-        </div>
-      </div>
-      <div class="right">
-        <div class="container--right">
-          <p class="fontSecular">
-            Se junte ao melhor blog brasileiro, quiçá até mundial, que fala sobre TUDO
-          </p>
-          <div class="col-lg-6 d-none d-lg-block container--right--image">
-            <img
-              src="assets/images/undraw_Content_re_33px.svg"
-              alt=""
-              class="img-fluid"
-            />
-          </div>
+          <p class="fontSecular" id="solicite">Ainda não solicitou seu acesso? Solicite <a href="./cadastro.html">já</a></p>
         </div>
       </div>
     </div>
