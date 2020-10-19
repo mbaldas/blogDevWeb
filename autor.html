@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog</title>
+    <script src="dependencies/jquery-3.5.1.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="dependencies/bootstrap-4.5.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="dependencies/fontawesome-free-5.15.1-web/css/all.min.css">
+  </head>
+  <body>
+    <div class="container--autores">
+			<h2 class="fontSecular">Minhas Postagens</h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">Título</th>
+						<th scope="col">Categoria</th>
+						<th scope="col">Conteúdo</th>
+						<th scope="col">Ações</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						
+						<td>Como criar sua planta</td>
+						<td>Jardinagem</td>
+						<td>Lorem ipsum dolor sit amet</td>
+						<td>
+							<a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
+							<a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
+						</td>
+					</tr>
+					<tr>
+						
+						<td>Como ter uma vida mais saudável</td>
+						<td>Lifestyle</td>
+						<td>Lorem ipsum dolor sit amet</td>
+						<td>
+							<a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
+							<a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
+						</td>
+					</tr>
+					<tr>
+						
+						<td>Se alimentando melhor, mesmo sem tempo</td>
+						<td>Alimentação</td>
+						<td>Lorem ipsum dolor sit amet</td>
+						<td>
+							<a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
+							<a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+				Nova Postagem
+			</button>
+			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">Nova Postagem</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="exampleFormControlInput1">Título</label>
+									<input type="email" class="form-control" id="exampleFormControlInput1">
+								</div>
+								<div class="form-group">
+									<label for="exampleFormControlSelect1">Escolha a categoria</label>
+									<select class="form-control" id="exampleFormControlSelect1">
+										<option>Jardinagem</option>
+										<option>Lifestyle</option>
+										<option>Alimentação</option>
+										<option>Exercícios Físicos</option>
+										<option>Mindfullness</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label for="exampleFormControlTextarea1">Conteúdo da postagem</label>
+									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+							<button type="button" class="btn btn-primary">Salvar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+    <script src="dependencies/jquery-3.5.1.min.js"></script>
+    <script src="dependencies/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

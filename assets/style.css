@@ -4,6 +4,7 @@
 2 - SIGNUP SCREEN
 3 - SIGNIN SCREEN
 4 - ADMIN DASH
+5 - MINHAS PUBLICACOES (AUTORES)
 
 */
 
@@ -103,5 +104,11 @@
 /* 4 - ADMIN DASH */
 
 .container--admin {
+  margin: 5%;
+}
+
+/* 5 - MINHAS PUBLICACOES (AUTORES) */
+
+.container--autores {
   margin: 5%;
 }
