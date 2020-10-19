@@ -23,13 +23,13 @@
           <div class="card-header" id="headingOne">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                Autorizar usuários
+                <span class="fontSecular" style="color: black;">Autorizar usuários</span>
               </button>
             </h5>
           </div>
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-              <table class="table table-bordered table-condensed table-hover">
+              <table class="table">
                 <thead>
                     <tr>
                         <th>CPF</th>
@@ -80,13 +80,13 @@
           <div class="card-header" id="headingTwo">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Autorizar postagens
+                <span class="fontSecular" style="color: black;">Autorizar postagens</span>
               </button>
             </h5>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-              <table class="table table-bordered table-condensed table-hover">
+              <table class="table">
                 <thead>
                     <tr>
                       <th>Autor</th>
@@ -137,13 +137,13 @@
           <div class="card-header" id="headingThree">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Incluir, alterar, excluir comentários
+                <span class="fontSecular" style="color: black;">CRUD Comentários</span>
               </button>
             </h5>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
-              <table class="table table-bordered table-condensed table-hover">
+              <table class="table">
                 <thead>
                     <tr>
                       <th>Conteúdo do comentário</th>
@@ -159,7 +159,8 @@
                         <td>A arte de cultivar uma planta</td>
                         <td>Matheus Baldas</td>
                         <td>
-                          <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                          <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                          <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                           <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                         </td>
                     </tr>
@@ -168,7 +169,8 @@
                       <td>A importância da irrigação regular</td>
                       <td>João Augusto</td>
                       <td>
-                        <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                         <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                       </td>
                     </tr>
@@ -177,7 +179,8 @@
                       <td>Como aproveitar a água da chuva em seu jardim</td>
                       <td>Douglas Gomes</td>
                       <td>
-                        <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                         <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                       </td>
                     </tr>
@@ -186,7 +189,8 @@
                       <td>Como construir um deck</td>
                       <td>Joana Abreu</td>
                       <td>
-                        <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                         <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                       </td>
                     </tr>
@@ -199,52 +203,55 @@
           <div class="card-header" id="headingFour">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Incluir, alterar, excluir postagens
+                <span class="fontSecular" style="color: black;">CRUD postagens</span>
               </button>
             </h5>
           </div>
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
             <div class="card-body">
-              <table class="table table-bordered table-condensed table-hover">
+              <table class="table">
                 <thead>
                     <tr>
                       <th>Autor</th>
-                      <th>Categoria da postagem</th>
+                      <th>Título da postagem</th>
                       <th>Ações</th>
                     </tr>
                         
                 </thead>
                 <tbody id="form-list-client-body">
                     <tr>
-                        <td>Matheus Baldas</td>
-                        <td>Jardinagem</td>
+                        <td>Roberto Carlos</td>
+                        <td>Jogando bola no jardim</td>
                         <td>
                           <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
-                          <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                          <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a> 
                           <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                             </td>
                     </tr>
                     <tr>
-                      <td>Matheus Baldas</td>
-                      <td>Jardinagem</td>
+                      <td>William Bonner</td>
+                      <td>Noticiando novas espécies de plantas</td>
                       <td>
-                        <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                         <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                       </td>
                     </tr>
                     <tr>
-                      <td>Matheus Baldas</td>
-                      <td>Jardinagem</td>
+                      <td>Marcos Pontes</td>
+                      <td>Plantando no espaço</td>
                       <td>
-                        <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                         <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                       </td>
                     </tr>
                     <tr>
-                      <td>Matheus Baldas</td>
-                      <td>Jardinagem</td>
+                      <td>Felipe Neto</td>
+                      <td>Enchi o jardim de minhocas e veja no que deu</td>
                       <td>
-                        <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                         <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                       </td>
                     </tr>
@@ -257,13 +264,13 @@
           <div class="card-header" id="headingFive">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                Incluir, alterar, excluir usuários
+                <span class="fontSecular" style="color: black;">CRUD usuários</span>
               </button>
             </h5>
           </div>
           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
             <div class="card-body">
-              <table class="table table-bordered table-condensed table-hover">
+              <table class="table">
                 <thead>
                     <tr>
                         <th>CPF</th>
@@ -277,7 +284,8 @@
                         <td>10573642383</td>
                         <td>Comentarista</td>
                         <td>
-                          <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                          <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                          <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                           <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                         </td>
                     </tr>
@@ -285,7 +293,8 @@
                       <td>10573642384</td>
                       <td>Autor</td>
                       <td>
-                        <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                         <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                       </td>
                   </tr>
@@ -293,15 +302,17 @@
                     <td>10573642385</td>
                     <td>Administrador</td>
                     <td>
-                      <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
-                      <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
+                      <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
+                        <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                     </td>
                 </tr>
                 <tr>
                   <td>10573642386</td>
                   <td>Comentarista</td>
                   <td>
-                    <a class="btn btn-default btn-sm "> <i class="fas fa-check text-success"></i> </a>  
+                    <a class="btn btn-default btn-sm "> <i class="fas fa-plus text-primary"></i> </a>
+                    <a class="btn btn-default btn-sm "> <i class="fas fa-edit text-primary"></i> </a>  
                     <a class="btn btn-default btn-sm "> <i class="fas fa-times text-danger"></i> </a>
                   </td>
               </tr>
