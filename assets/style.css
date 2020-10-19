@@ -3,6 +3,7 @@
 1 - IMPORTS
 2 - SIGNUP SCREEN
 3 - SIGNIN SCREEN
+4 - ADMIN DASH
 
 */
 
@@ -97,4 +98,10 @@
 .left--signin p {
   font-size: 2em;
   letter-spacing: 2px;
+}
+
+/* 4 - ADMIN DASH */
+
+.container--admin {
+  margin: 5%;
 }
